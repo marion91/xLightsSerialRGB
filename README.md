@@ -12,6 +12,7 @@ All channels are parsed out to LEDS in the same order as they are received by xL
 All user-defined variables are shown below:
 
 <code>
+  
 #define BAUDRATE 1000000 // Set baud rate here and in xLights, faster speeds are needed for more lights
 #define TOTAL_BUFF_SIZE 1024 // Set max channels that can be received. Can set to a lower number if memory is needed elsewhere. 
 
@@ -31,4 +32,5 @@ const int NUM_LEDS[] = {50, 0};
 
 const char start_char = '<'; // Set serial delimiter here and in xLights
 //const char end_char = '>'; // Not used, as some colour bytes can trigger this. Use dynamic BUFF_SIZE instead to force exact number of channels
-<code>
+
+</code>
